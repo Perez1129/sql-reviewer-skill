@@ -1,14 +1,12 @@
-<<<<<<< HEAD
-# sql-reviewer-skill
+ sql-reviewer-skill
 
 Skill de revisión técnica de SQL para IA. Analiza sentencias/scripts SQL y produce un reporte de
 hallazgos clasificados por severidad (`CRITICAL`, `HIGH`, `MEDIUM`, `LOW`, `INFO`), siguiendo un
 procedimiento determinista definido en [`SKILL.md`](./SKILL.md), no un prompt genérico tipo
 "eres experto en SQL, revisa esto".
 
-## Estructura
+ Estructura
 
-```
 sql-reviewer-skill/
 ├── SKILL.md              # Especificación completa de la skill
 ├── README.md
