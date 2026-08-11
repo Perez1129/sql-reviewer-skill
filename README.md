@@ -36,17 +36,3 @@ sql-reviewer-skill/
 3. La skill devuelve un reporte por sentencia con hallazgos `[SEVERIDAD] RULE-ID — mensaje`, y un
    resumen general con la severidad máxima encontrada.
 
-## Equipo
-
-- Integrante 1: _(nombre)_
-- Integrante 2: _(nombre)_
-
-## Fase Red Team
-
-Los tests 03 y 05 documentan dos fallos reales encontrados y corregidos: un `WHERE` tautológico
-(`LIKE '%'`) que evadía la regla original de "WHERE ausente", y un `LIMIT` con valor absurdamente
-alto que neutralizaba la regla de "LIMIT ausente". Ambos casos motivaron reglas nuevas
-(`SEC-02`, `SEC-06`, `PERF-03`) documentadas en `rules/` y en los tests correspondientes.
-=======
-# sql-reviewer-skill
->>>>>>> f2df4b2c87df115c335c4e60a87fdd41eea27888
