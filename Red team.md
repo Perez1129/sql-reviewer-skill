@@ -1,4 +1,4 @@
-# Red Team - SQL Reviewer Skill (equipo vanessahl)
+# Red Team - SQL Reviewer Skill (equipo Vanessa)
 
 Encontramos casos donde su skill SI o NO detecta cosas peligrosas aunque "parezcan" tener WHERE o LIMIT.
 
